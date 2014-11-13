@@ -27,7 +27,7 @@ class Curl {
 								
 				#only fetch courses ecery 5 minutes
 			
-				$string = file_get_contents("files/courses.json");
+				$string = @file_get_contents("files/courses.json");
 				if(!empty($string)) {
 					$json_content = json_decode($string,true);
 					$latestScrape = $json_content['timeStamp'];
@@ -38,7 +38,7 @@ class Curl {
 					
 					else {  //do web scraping! 
 						$courses = $this->fetchCourses();
-						
+						throw new \Exception(var_dump("hopp"));
 						$coursesArrayObject = new \ArrayObject($courses);
 						$coursesArrayObject->asort();
 						
@@ -92,7 +92,7 @@ class Curl {
 					//fetching all a-tags which includes course name and course url
 						
 					$courseData = $xpathCourses->query('//ul[@id = "blogs-list"]//div[@class = "item-title"]/a');
-						//throw new \Exception(var_dump("hupp"));
+						
 					foreach ($courseData as $item) {			
 						
 						if (strpos($item->getAttribute("href") ,'kurs') !== false) {
@@ -129,13 +129,13 @@ class Curl {
 								$course->authorLatestPost = $author;
 							}else {$course->authorLatestPost = $date;}
 							
-							
+							throw new \Exception(var_dump("hopp"));
 							//push courses into array 
 							array_push($courseArray, $course);
 							
 						}
 				} 												
-		}
+		}	
 			return $courseArray; 
 	}
 

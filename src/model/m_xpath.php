@@ -44,7 +44,7 @@ class XPATH {
 		$options = Array(
 			//CURLOPT_HTTPHEADER => $headers,
             CURLOPT_RETURNTRANSFER => TRUE,  
-            CURLOPT_AUTOREFERER => TRUE,  
+            CURLOPT_AUTOREFERER => TRUE, 
             CURLOPT_USERAGENT =>'mn22nw',
             CURLOPT_URL => $url 
         );
