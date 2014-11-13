@@ -31,14 +31,13 @@ class Curl {
 				if(!empty($string)) {
 					$json_content = json_decode($string,true);
 					$latestScrape = $json_content['timeStamp'];
-					$time = false;
-					if ($time ==true){ //time() - $latestScrape > 300) { //<-- true if time passed is less than 5 minutes	//TODO change > to <				 
+					
+					if (time() - $latestScrape < 300) { //<-- true if time passed is less than 5 minutes				 
 						$this->htmlBody = @file_get_contents("files/htmlBody.txt");
 					}
 					
 					else {  //do web scraping! 
 						$courses = $this->fetchCourses();
-						throw new \Exception(var_dump("hopp"));
 						$coursesArrayObject = new \ArrayObject($courses);
 						$coursesArrayObject->asort();
 						
@@ -129,7 +128,6 @@ class Curl {
 								$course->authorLatestPost = $author;
 							}else {$course->authorLatestPost = $date;}
 							
-							throw new \Exception(var_dump("hopp"));
 							//push courses into array 
 							array_push($courseArray, $course);
 							

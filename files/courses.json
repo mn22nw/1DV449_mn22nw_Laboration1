@@ -1,6 +1,6 @@
 {
     "Number of courses": 68,
-    "timeStamp": 1415835659,
+    "timeStamp": 1415884886,
     "Courses": {
         "45": {
             "name": "3D-grafik",
@@ -47,7 +47,7 @@
             "authorLatestPost": "Martin Blomberg",
             "dateLatestPost": "2014-01-14 11:47"
         },
-        "0": {
+        "1": {
             "name": "Avancerade LAN-teknologier",
             "url": "http:\/\/coursepress.lnu.se\/kurs\/avancerade-lan-teknologier\/",
             "code": "1DV447",
@@ -119,7 +119,7 @@
             "authorLatestPost": "Marcus Wilhelmsson",
             "dateLatestPost": "2014-04-24 07:33"
         },
-        "4": {
+        "5": {
             "name": "Design av grafiska gr\u00e4nssnitt",
             "url": "http:\/\/coursepress.lnu.se\/kurs\/design-av-grafiska-granssnitt\/",
             "code": "1ME403",
@@ -182,14 +182,14 @@
             "authorLatestPost": "Mathias Hedenborg",
             "dateLatestPost": "2014-05-28 08:10"
         },
-        "7": {
+        "0": {
             "name": "Grafisk design",
             "url": "http:\/\/coursepress.lnu.se\/kurs\/grafisk-design\/",
             "code": "1DI101",
             "info": "Kursen Grafisk Design ing\u00c3\u00a5r som obligatorisk kurs under andra \u00c3\u00a5ret vid utbildningsprogrammet Interaktionsdesigner vid Linn\u00c3\u00a9universitetet. M\u00c3\u00a5let med kursen \u00c3\u00a4r att studenten skall f\u00c3\u00a5 en god f\u00c3\u00b6rst\u00c3\u00a5else f\u00c3\u00b6r hur man skapar och tolkar bild f\u00c3\u00b6r digitalt och analogt bruk. Studenten skall \u00c3\u00a4ven kunna anv\u00c3\u00a4nda sig av designprocessen f\u00c3\u00b6r att presentera bild och text via webbl\u00c3\u00b6sningar, datorprogram samt f\u00c3\u00b6r tryck. Fokus ligger p\u00c3\u00a5 bildbehandling utifr\u00c3\u00a5n ett professionellt perspektiv med fokus p\u00c3\u00a5 bildanalys och f\u00c3\u00b6rst\u00c3\u00a5else. Kursen best\u00c3\u00a5r av f\u00c3\u00b6ljande tv\u00c3\u00a5 delkurser:",
             "headlineLatestPost": "Kursen Grafisk design (HT13) vid Linn\u00c3\u00a9universitetet",
             "authorLatestPost": "Morgan Rydbrink",
-            "dateLatestPost": "2014-11-05 01:05"
+            "dateLatestPost": "2014-11-13 02:06"
         },
         "8": {
             "name": "Grafiska verktyg",
@@ -272,7 +272,7 @@
             "authorLatestPost": "Jesper Andersson",
             "dateLatestPost": "2014-11-07 03:20"
         },
-        "1": {
+        "2": {
             "name": "Klientbaserad webbutveckling",
             "url": "http:\/\/coursepress.lnu.se\/kurs\/klientbaserad-webbutveckling\/",
             "code": "1DV435",
@@ -398,7 +398,7 @@
             "authorLatestPost": "Anne Norling",
             "dateLatestPost": "2014-06-11 09:35"
         },
-        "6": {
+        "7": {
             "name": "Operativsystem",
             "url": "http:\/\/coursepress.lnu.se\/kurs\/operativsystem\/",
             "code": "1DV012",
@@ -461,7 +461,7 @@
             "authorLatestPost": "Martin Blomberg",
             "dateLatestPost": "2014-04-01 01:08"
         },
-        "2": {
+        "3": {
             "name": "Strukturerad programmering med C++",
             "url": "http:\/\/coursepress.lnu.se\/kurs\/strukturerad-programmering-med-cplusplus\/",
             "code": "1DV433",
@@ -542,7 +542,7 @@
             "authorLatestPost": "John H\u00c3\u00a4ggerud",
             "dateLatestPost": "2014-05-21 06:31"
         },
-        "3": {
+        "4": {
             "name": "Webbteknik I",
             "url": "http:\/\/coursepress.lnu.se\/kurs\/webbteknik-i\/",
             "code": "1DV403",
@@ -551,7 +551,7 @@
             "authorLatestPost": "Johan Leitet",
             "dateLatestPost": "2014-11-12 04:52"
         },
-        "5": {
+        "6": {
             "name": "Webbteknik II",
             "url": "http:\/\/coursepress.lnu.se\/kurs\/webbteknik-ii\/",
             "code": "1DV449",
